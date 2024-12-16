@@ -20,7 +20,7 @@
               display-name = "BASE";
               bindings = <
                 // ╭─────────────┬──────────────┬──────────────────┬─────────────┬─────────────╮
-                     &mo BLE      &kp C_PREVIOUS  &kp C_PLAY_PAUSE    &kp C_NEXT   &kp C_MUTE
+                     &mo BLE      &kp Q           &kp W             &kp E         &kp R
                 // ╰─────────────┴──────────────┴──────────────────┴─────────────┴─────────────╯
               >;
               sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -30,7 +30,7 @@
               display-name = "BLE";
               bindings = <
                 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                     &trans     &out OUT_TOG   &bt BT_PRV    &bt BT_NXT    &bt BT_CLR
+                     &trans       &kp A         &kp S         &kp D         &kp F
                 // ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
               >;
             };
