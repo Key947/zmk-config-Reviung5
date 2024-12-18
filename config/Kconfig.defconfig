@@ -1,10 +1,12 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_REVIUNG5
-
 config ZMK_KEYBOARD_NAME
     default "Reviung5"
+
+endif 
+
+if SHIELD_REVIUNG5
 
 if ZMK_DISPLAY
 
