@@ -20,7 +20,7 @@
               display-name = "BASE";
               bindings = <
                 // ╭─────────────┬──────────────┬──────────────────┬─────────────┬─────────────╮
-                     &bt BT_CLR   &kp Q           &kp W             &kp E         &kp R
+                     &bt BT_CLR   &kp Q           &kp W             &kp E         &mo 1
                 // ╰─────────────┴──────────────┴──────────────────┴─────────────┴─────────────╯
               >;
               sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
