@@ -6,6 +6,8 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
+&pro_micro_serial { status = "disabled"; };
+
 / {
     chosen {
             zephyr,display = &oled;
